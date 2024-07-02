@@ -55,8 +55,8 @@ A Netflix clone built with React, Node.js, Express, and MongoDB. This project de
 
     ```env
     PORT=5000
-    MONGO_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
+    MONGO_URI=*****
+    JWT_SECRET=*****
     ```
 
 4. Start the backend server:
@@ -97,34 +97,4 @@ A Netflix clone built with React, Node.js, Express, and MongoDB. This project de
 2. Start the backend server.
 3. Start the frontend development server.
 4. Open your browser and navigate to `http://localhost:3000`.
-
-## Folder Structure
-
-netflix-clone/
-├── backend/
-│ ├── config/
-│ │ └── db.js
-│ ├── controllers/
-│ │ └── movieController.js
-│ ├── models/
-│ │ └── Movie.js
-│ ├── routes/
-│ │ └── movieRoutes.js
-│ ├── .env
-│ ├── server.js
-│ └── package.json
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Navbar.js
-│ │ │ ├── Banner.js
-│ │ │ ├── Row.js
-│ │ ├── pages/
-│ │ │ ├── HomePage.js
-│ │ │ ├── MoviePage.js
-│ │ ├── App.js
-│ │ ├── index.js
-│ ├── .env
-│ └── package.json
-├── README.md
 
