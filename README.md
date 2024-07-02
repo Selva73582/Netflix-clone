@@ -100,3 +100,31 @@ A Netflix clone built with React, Node.js, Express, and MongoDB. This project de
 
 ## Folder Structure
 
+netflix-clone/
+├── backend/
+│ ├── config/
+│ │ └── db.js
+│ ├── controllers/
+│ │ └── movieController.js
+│ ├── models/
+│ │ └── Movie.js
+│ ├── routes/
+│ │ └── movieRoutes.js
+│ ├── .env
+│ ├── server.js
+│ └── package.json
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── Navbar.js
+│ │ │ ├── Banner.js
+│ │ │ ├── Row.js
+│ │ ├── pages/
+│ │ │ ├── HomePage.js
+│ │ │ ├── MoviePage.js
+│ │ ├── App.js
+│ │ ├── index.js
+│ ├── .env
+│ └── package.json
+├── README.md
+
